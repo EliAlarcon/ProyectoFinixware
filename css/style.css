@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+.nombre_empresa{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+
+.cardConvenio{
+    height: 448px;
+    margin-left: 5px;
+    padding-right: 3px;
+    background-color: hsla(0, 57%, 50%, 0.4);
+    color: lightcyan;
+}
+
+.container_finixware{
+    display: flex;
+}
+
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: lightgray;
+}
+
+body{
+    background-color: black;
+}
+
+.piePagina{
+    display: grid;
+    margin-top: 20px;
+    height: 70px;
+    grid-template-columns: 0.4fr 2fr 3fr 0.4fr 0.4fr 0.4fr 0.4fr;
+}
+
+.cajaIcono{
+    grid-column: 1/2;
+}
+.cajaDireccion{
+    grid-column: 2/3;
+    color: lightgray;
+    margin-top: 15px;
+    text-align: left;
+}
+.cajaFacebook{
+    grid-column: 4/5;
+}
+.cajaInstagram{
+    grid-column: 5/6;
+}
+.cajaTiktok{
+    grid-column: 6/7;
+}
